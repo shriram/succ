@@ -4,7 +4,7 @@
 
 (require [for-syntax racket])
 
-(define succs #rx"succ+")
+(define succs #rx"succ+$")
 
 (define (succs-string? s)
   (regexp-match succs s))
